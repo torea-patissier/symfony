@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Inscription{% endblock %}
+
+{% block content %}
+<h1>Inscription</h1>
+<p>Formulaire d'inscription</p>
+
+{{form(form)}}
+{# Formulaire de RegisterController à gauche == 'form' #}
+{# A droite $form #}
+{% endblock %}
